@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 // --- APNA LIVE BACKEND URL ---
-const API_BASE_URL = "https://fact-checker-api-8qgm.onrender.com";
+const API_BASE_URL = "https://facts-check-backend.onrender.com";
 
 function Dashboard() {
     const [file, setFile] = useState(null);

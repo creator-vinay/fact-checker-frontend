@@ -3,7 +3,7 @@ import axios from 'axios';
 import Dashboard from './Dashboard'; // Importing Dashboard component
 
 // --- LIVE BACKEND URL ---
-const BACKEND_URL = "https://fact-checker-api-8qgm.onrender.com";
+const BACKEND_URL = "https://facts-check-backend.onrender.com";
 
 function App() {
   const [email, setEmail] = useState('');
